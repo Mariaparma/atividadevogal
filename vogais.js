@@ -1,4 +1,4 @@
-let palavra = "Equipe";
+let palavra = "luan santana";
 let vogais = ['a', 'e', 'i', 'o', 'u'];
 let palavraMinuscula = palavra.toLowerCase();
 
