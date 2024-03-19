@@ -8,5 +8,5 @@ let numeroVogais = palavra;
 let numero = vogaisEncontradas.length;
 
 console.log("Texto: " + palavra);
-console.log("Número totais de voagis: " + numero);
+console.log("Número totais de vogais: " + numero);
 console.log("Vogais encontradas: " + vogaisEncontradas.join(", "));
