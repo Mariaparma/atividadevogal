@@ -1,8 +1,12 @@
-//iniciar numero
-let A = 10;
+let palavra = "Equipe";
+let vogais = ['a', 'e', 'i', 'o', 'u'];
+let palavraMinuscula = palavra.toLowerCase();
 
-let B = 2;
+let caracteres = palavraMinuscula.split('');
+let vogaisEncontradas = caracteres.filter(letra => vogais.includes(letra));
+let numeroVogais = palavra;
+let numero = vogaisEncontradas.length;
 
-let subtracao = A - B;
-//Fazer condicao:10-2
-console.log(subtracao);
+console.log("Texto: " + palavra);
+console.log("Número totais de voagis: " + numero);
+console.log("Vogais encontradas: " + vogaisEncontradas.join(", "));
